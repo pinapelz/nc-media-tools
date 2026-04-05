@@ -1,0 +1,1 @@
+These are a generic set of tools/helpers for running some sort of media service accessible over WebDAV. Its reccomended you run them from Google Colab to take advantage of fast download/upload speeds. Instructions provided in each notebook.
