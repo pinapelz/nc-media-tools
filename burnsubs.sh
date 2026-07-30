@@ -135,7 +135,8 @@ for ext in "${MEDIA_EXTS[@]}"; do
             -preset medium \
             -crf 18 \
             -c:a copy \
-            "$output"
+            "$output" \
+            < /dev/null
 
         if [[ $? -eq 0 ]]; then
             echo "✓ Finished"
