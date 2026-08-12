@@ -10,3 +10,10 @@ Grabar is a bridge bash script that allows you to download some file via aria2c 
 
 ## burnsubs.sh
 Given a directory, for each pair of media and subtitle file, produce a new video where the subtitle is burned onto the media. Style is customizeable, requires `ffmpeg`
+
+## nextcloud_create_album
+Generates a `audio.pinapelz.com` link for an album by uploading it to your own Nextcloud instance and publicly sharing the file.
+
+Exclusive for use with FLACs. Folders must follow the structure of having 1 `cover.jpg` and at least 1 FLAC file with Album, Artist, and Title tagged.
+
+Since the URL is quite long due to all the share links being embedded as a query param, you may want to use a link shortener.
